@@ -40,6 +40,11 @@
   background-color: var(--color-dark);
 }
 
+.btn-light-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
 .btn:hover {
   transform: scale(0.9);
   transition: all 0.5s;
