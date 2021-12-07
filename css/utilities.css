@@ -1,4 +1,9 @@
 /*utilities*/
+
+.text-primary {
+  color: var(--color-primary);
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -61,6 +66,27 @@
 
 .text-center {
   text-align: center;
+}
+
+.alert {
+  background-color: var(--color-light);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--color-success);
+  color: #fff;
+}
+
+.alert-danger {
+  background-color: var(--color-danger);
+  color: #fff;
 }
 
 /*texts*/
