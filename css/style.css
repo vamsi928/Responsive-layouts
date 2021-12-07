@@ -54,6 +54,11 @@ pre {
   color: #fff;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 /*Navbar*/
 .navbar {
   background-color: var(--color-primary);
